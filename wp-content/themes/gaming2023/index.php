@@ -13,7 +13,7 @@ if (is_page('games')) {
 	 $loop = new WP_Query( $args ); 
 	     
 	 while ( $loop->have_posts() ) : $loop->the_post(); 
-	     include('pages/game-detail.php');
+	     include('pages/game-card.php');
 	 endwhile;
 
 	 wp_reset_postdata(); 
@@ -21,4 +21,3 @@ if (is_page('games')) {
 // Silence is golden.
 get_footer();
 ?>
-
