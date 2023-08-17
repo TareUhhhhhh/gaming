@@ -12,3 +12,7 @@
 .game-card + .game-card {
 	margin-top:	 3rem;
 }
+
+.label {
+	font-weight: 700;
+}
