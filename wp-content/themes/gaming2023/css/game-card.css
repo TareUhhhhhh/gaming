@@ -1,0 +1,14 @@
+
+/*GAME CARD*/
+.game-card {
+	padding: 1rem;
+	border: 1px inset gray;
+}
+
+.game_image {
+	max-width: 400px;
+}
+
+.game-card + .game-card {
+	margin-top:	 3rem;
+}
