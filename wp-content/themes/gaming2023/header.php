@@ -13,8 +13,13 @@
 	<body <?php body_class();?> >
 		<header>
 			<div class="inner-column">
-				<?php include('site-menu.php'); ?>
+				<div class="site-header">
+					<svg height="50" width="50">
+					  <circle cx="25" cy="25" r="20" stroke="cyan" stroke-width="2" fill="black"/>
+					</svg>
 
+					<?php include('site-menu.php'); ?>
+				</div>
 			</div>
 		</header> 
 
