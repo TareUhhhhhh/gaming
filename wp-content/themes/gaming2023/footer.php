@@ -1,6 +1,10 @@
 </div>
 </main>
-		<h3>Turra Gaming Footer</h3>
-		<?php wp_footer() ?>
+	<footer>
+		<div class="inner-column">
+			<p>©Turra Gaming</p>
+			<?php wp_footer() ?>
+		</div>
+	</footer>
 	</body>
 </html>
