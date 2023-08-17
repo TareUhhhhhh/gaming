@@ -18,6 +18,10 @@ if (is_page('games')) {
 
 	 wp_reset_postdata(); 
 }
-// Silence is golden.
+
+if (is_singular('game')) {
+		include('pages/game-detail.php');
+	}
+
 get_footer();
 ?>
