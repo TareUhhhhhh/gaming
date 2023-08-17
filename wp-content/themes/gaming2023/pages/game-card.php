@@ -3,7 +3,7 @@
 	<picture class="game_image">
 		<img src="<?php the_field('game_image') ?>" alt="">
 	</picture>
-	<h2 class="esrb_rating"><?php the_field('esrb_rating') ?></h2>
-	<p class="genre"><?php the_field('genre')?></p>
 	<p class="game_teaser"><?php the_field('game_teaser')?></p>
+		<p class="esrb_rating"><span class="label">ESRB Rating: </span><?php the_field('esrb_rating') ?></p>
+	<p class="genre"><span class="label">Genre: </span> <?php the_field('genre')?></p>
 </section>
