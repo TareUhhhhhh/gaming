@@ -1,0 +1,12 @@
+.menu ul {
+	display: flex;
+	flex-direction: row-reverse;
+	gap: 2rem;
+}
+
+header .site-header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 1rem;
+}
