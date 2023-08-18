@@ -15,7 +15,7 @@
 			<div class="inner-column">
 				<div class="site-header">
 					<svg height="50" width="50">
-					  <circle cx="25" cy="25" r="20" stroke="rgb(81,63,70)" stroke-width="2" fill="rgb(81,63,70)"/>
+					  <circle cx="25" cy="25" r="24" stroke="rgb(81,63,70)" stroke-width="2" fill="rgb(81,63,70)"/>
 					</svg>
 
 					<?php include('site-menu.php'); ?>
