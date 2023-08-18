@@ -16,3 +16,7 @@
  endwhile;
 
  wp_reset_postdata(); 
+<?php
+if (is_singular('update')) {
+		include('pages/update-detail.php');
+	}

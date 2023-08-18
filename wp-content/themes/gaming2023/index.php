@@ -23,5 +23,9 @@ if (is_singular('game')) {
 		include('pages/game-detail.php');
 	}
 
+if (is_singular('update')) {
+		include('pages/update-detail.php');
+	}
+
 get_footer();
 ?>
