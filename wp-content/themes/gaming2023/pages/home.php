@@ -20,8 +20,3 @@
 		wp_reset_postdata(); 
 	?>
 </section>
-
-<?php
-if (is_singular('update')) {
-		include('pages/update-detail.php');
-	}

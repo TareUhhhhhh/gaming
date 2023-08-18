@@ -23,7 +23,7 @@ if (is_singular('game')) {
 		include('pages/game-detail.php');
 	}
 
-if (is_singular('update')) {
+if (is_singular('updates')) {
 		include('pages/update-detail.php');
 	}
 
