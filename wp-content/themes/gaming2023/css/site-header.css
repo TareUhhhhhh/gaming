@@ -10,3 +10,7 @@ header .site-header {
 	align-items: center;
 	gap: 1rem;
 }
+
+.menu a {
+	font-size: 1.3rem;
+}
