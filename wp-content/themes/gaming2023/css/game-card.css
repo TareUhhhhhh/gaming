@@ -1,8 +1,7 @@
 
 /*GAME CARD*/
-.game-card {
-	padding: 1rem;
-	border: 1px inset gray;
+.game-card + .game-card {
+	border-top: 1px solid gray;
 }
 
 .game_image {
