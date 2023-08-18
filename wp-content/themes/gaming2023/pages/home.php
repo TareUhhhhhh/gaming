@@ -4,18 +4,23 @@
 	<p class="page-description">This is a page created to practice some Wordpress goodness.</p>
 </section>
 
-<?php
- $args = array(  
-     'post_type' => 'updates',
- );
+<section class="updates">
+	<h2 class="update">Recent Updates</h1>
+	<?php
+		$args = array(  
+		   'post_type' => 'updates',
+		);
 
- $loop = new WP_Query( $args ); 
-     
- while ( $loop->have_posts() ) : $loop->the_post(); 
-     include('update-card.php');
- endwhile;
+		$loop = new WP_Query( $args ); 
+		     
+		while ( $loop->have_posts() ) : $loop->the_post(); 
+		   include('update-card.php');
+		endwhile;
 
- wp_reset_postdata(); 
+		wp_reset_postdata(); 
+	?>
+</section>
+
 <?php
 if (is_singular('update')) {
 		include('pages/update-detail.php');
