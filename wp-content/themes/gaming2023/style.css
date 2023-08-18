@@ -25,6 +25,10 @@ h2, h3, p, picture {
 	margin-top: 1rem;
 }
 
+section + section {
+	margin-top: 5rem;
+}
+
 /*FONT SIZE*/
 h1 {
 	font-size: 4rem;
