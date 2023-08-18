@@ -1,3 +1,20 @@
 .update-card picture {
 	max-width: 200px;
 }
+
+.update-preview {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+}
+
+.update-preview :is(h2, a) {
+	display: inline;
+}
+
+.update-card a {
+	display: inline-block;
+	border: 1px solid rgb(81,63,70);
+	margin-top: 1rem;
+	padding: 1rem;
+}
