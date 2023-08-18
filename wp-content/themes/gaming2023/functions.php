@@ -1,5 +1,4 @@
 <?php
-
 add_filter('show_admin_bar', '__return_false');
 
 function mytheme_enqueue_style() {
